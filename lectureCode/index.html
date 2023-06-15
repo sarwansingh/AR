@@ -17,7 +17,7 @@
         <div class="collapse navbar-collapse" id="navbarCollapse">
             <div class="navbar-nav">
                 <a href="#" class="nav-item nav-link active">Home</a>
-                
+                <a href="#" class="nav-item nav-link">Services</a>
                 <a href="#" class="nav-item nav-link">About</a>
               	<a href="#" class="nav-item nav-link">Contact</a>
             </div>
@@ -51,9 +51,11 @@
   
   <div class="m-4">
     <div class="accordion" id="myAccordion">
-        <div class="accordion-item">
+      <div class="accordion-item">
             <h2 class="accordion-header" id="headingOne">
-                <button type="button" class="accordion-button collapsed" data-bs-toggle="collapse" data-bs-target="#collapseOne">A-Frame</button>								
+                <button type="button" class="accordion-button collapsed" 
+                        data-bs-toggle="collapse" data-bs-target="#collapseOne">
+                  A-Frame</button>								
             </h2>
             <div id="collapseOne" class="accordion-collapse collapse" data-bs-parent="#myAccordion">
                 <div class="card-body">
@@ -72,6 +74,64 @@
                      <a href="aframe3.html" target="_blank" > Adding an Environment </a> <br>
                       A-Frame allows developers to create and share reusable components for others to easily use. 
                       The environment component is a great and easy way to visually bootstrap our VR application, providing over a dozen environments with numerous parameters.
+                    </li> 
+                    <li class="list-group-item">
+                     <a href="aframe4.html" target="_blank" > Applying an Image Texture </a> &nbsp; &nbsp; &nbsp; 
+                      <a href="aframe4a.html" target="_blank" > Applying India Map on Box </a>
+                      <br>
+                     </li>  
+                    <li class="list-group-item">
+                     <a href="aframe5.html" target="_blank" > Adding background to scene </a> <br>
+                    </li>  
+                    <li class="list-group-item">
+                    Adding animations to the box using 
+                     <a href="aframe4b.html" target="_blank" >  A-Frame’s built-in animation system </a> <br>
+                     <b> animation component to:</b>
+                      <ul>
+                      <li> Animate the entity’s object3D’s position’s Y axis.</li>
+                      <li> Animate to 2.2 which is 20 centimeters higher.</li>
+                      <li> Alternate the dir (direction) of the animation on each repeated cycle of the animation so it goes back and forth.</li>
+                      <li> Last for 2000 millisecond dur (duration) on each cycle.</li>
+                      <li> Loop or repeat the animation forever.</li>
+                     </ul>
+                    </li>
+                    
+                     
+<!--    Background Audio                 <a-assets>
+                            <audio src="https://cdn.aframe.io/basic-guide/audio/backgroundnoise.wav" autoplay
+                              preload></audio>
+                          </a-assets> -->
+                      
+<!--                   adding Video    <a-scene>
+                         <a-assets>
+                          <video id="cityVideo" src="https://cdn.aframe.io/360-video-boilerplate/video/city.mp4">
+                         </a-assets>
+                         <a-videopshere src="#cityVideo"></a-videosphere>
+                        </a-scene> -->
+                    
+                 </ul>
+                </div>
+            </div>
+        </div>
+      <div class="accordion-item">
+            <h2 class="accordion-header" id="headingTwo">
+                <button type="button" class="accordion-button collapsed" 
+                        data-bs-toggle="collapse" 
+                        data-bs-target="#collapseTwo">360 degree View</button>
+            </h2>
+            <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#myAccordion">
+                <div class="card-body">
+                   <ul class="list-group list-group-flush  ">
+                   
+                    <li class="list-group-item">
+                         <a href="ar1.html" target="_blank" > 360 Degree Image Viewer </a> <br>
+                      Panaroma, Sky at Night, Fab Lab Interior . 
+                      
+                    </li>  
+                     <li class="list-group-item">
+                         <a href="ar2.html" target="_blank" > Sun in Ocean </a> <br>
+                      Ocenic view with Sun. 
+                      
                     </li>  
                     
                  </ul>
@@ -79,10 +139,12 @@
             </div>
         </div>
         <div class="accordion-item">
-            <h2 class="accordion-header" id="headingTwo">
-                <button type="button" class="accordion-button" data-bs-toggle="collapse" data-bs-target="#collapseTwo">Marker Based AR</button>
+            <h2 class="accordion-header" id="headingThree">
+                <button type="button" class="accordion-button collapsed" 
+                        data-bs-toggle="collapse" data-bs-target="#collapseThree">
+                  Marker Based AR</button>
             </h2>
-            <div id="collapseTwo" class="accordion-collapse collapse show" data-bs-parent="#myAccordion">
+            <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#myAccordion">
                 <div class="card-body">
                    <ul class="list-group list-group-flush  ">
                    
@@ -116,6 +178,6 @@
             </div>
         </div>
     </footer>
-</div>
+  
 </body>
 </html>
